@@ -109,7 +109,7 @@ install_neovim_appimage() {
 
     # For Ubuntu 20.04, use a compatible version
     if [[ "$UBUNTU_VERSION" == "20.04" ]]; then
-        nvim_url="https://github.com/neovim/neovim/releases/download/v0.9.5/nvim.appimage"
+        nvim_url="https://github.com/neovim/neovim/releases/download/latest/nvim.appimage"
     fi
 
     curl -LO "$nvim_url"
